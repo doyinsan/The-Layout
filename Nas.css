@@ -1,0 +1,31 @@
+h1{
+  text-align: center;
+}
+
+iframe{
+  text-align: center;
+}
+p{
+
+  text-align: center;
+}
+@media only screen and (max-width : 580px){
+
+
+section {
+ width: 75%
+}
+
+aside{
+  width: 75%
+}
+
+.one-third {
+  width: 75%
+}
+ h1{
+   font-size: 60%;
+   color : purple;
+ }
+
+
