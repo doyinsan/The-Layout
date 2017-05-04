@@ -1,13 +1,23 @@
 h1{
   text-align: center;
+  color: Black;
+  font-family: Times New Roman;
+  font-size: 300%;
+  font-style: italic;
 }
 
-iframe{
+p
+{
   text-align: center;
 }
-p{
 
-  text-align: center;
+p.italic {
+    font-style: italic;
+}
+
+body{
+  background-image: url ("C:\Users\deleo_000\Desktop\Southend.jpg");
+  
 }
 @media only screen and (max-width : 580px){
 
