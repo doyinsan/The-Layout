@@ -1,25 +1,29 @@
 h1{
   text-align: center;
   color: Black;
-  font-family: Times New Roman;
+  font-family: myFirstFont;
   font-size: 300%;
-  font-style: italic;
+  font-style: i;
 }
 
 p
 {
   text-align: center;
+
 }
 
-p.italic {
-    font-style: italic;
+@font-face{
+  font-family: myFirstFont;
+  src: local(C\Users\deleo_000\Downloads\movie_letters\movlette);
 }
+
 
 body{
-  background-image: url ("C:\Users\deleo_000\Desktop\Southend.jpg");
-  
+  background-image: url("http://www.macphersoncoaches.co.uk/images/Itinerary_sml/southend%20image%201.jpg");
+  background-repeat: no-repeat;
+  background-size: 1580px, 920px;
 }
-@media only screen and (max-width : 580px){
+@media only screen and (max-width : 680px){
 
 
 section {
@@ -27,15 +31,18 @@ section {
 }
 
 aside{
-  width: 75%
+  width: 55%
 }
 
 .one-third {
-  width: 75%
+  width: 55%
 }
  h1{
-   font-size: 60%;
+   font-size: 50%;
    color : purple;
  }
 
-
+p{
+  font-size: 70%;
+  color: Red; 
+}
